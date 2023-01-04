@@ -10,6 +10,10 @@ body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
 .container {
     max-width: 1370px;
     width: 100%;
@@ -128,7 +132,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 95px;
-    grid-template-rows: 1060px;
+    grid-template-rows: 1194px;
 }
 .second__card > div {
     font-family: 'Georgia';
@@ -192,4 +196,111 @@ body {
 .second__card:last-child p {
     width: 441px;
     margin-bottom: 47px;
+}
+.video {
+    padding: 229px 0 175px;
+    background-color: #245852;
+}
+.video__container {
+    max-width: 1507px;
+    width: 100%;
+    margin: 0 auto;
+}
+.video__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.video__content {
+
+}
+.video__content h2 {
+    margin: 0 0 37px;
+    padding-top: 81px;
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #FFFFFF;
+    width: 580px;
+}
+.video__content p {
+    margin-bottom: 62px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 550px;
+}
+.video__button {
+    padding: 20px 50px;
+}
+.product {
+    padding: 120px 0 168px;
+}
+.product__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.product__img {
+    position: relative;
+}
+.product__photo {
+    margin-left: 60px;
+    margin-bottom: 71px;
+}
+.product__card {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.product__content {
+    width: 584px;
+}
+.product__content h5 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    color: #424242;
+    margin-bottom: 10px;
+}
+.product__content h2 {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    margin-bottom: 20px;
+}
+.product__content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    margin-bottom: 30px;
+}
+.product__button {
+    padding: 20px 50px;
+}
+.footer {
+    padding: 103px 0 144px;
+    background-color: #245852;
+}
+footer img {
+    margin-bottom: 54px;
+}
+.footer__list {
+    list-style: none;
+    padding: 0;
+}
+.footer__list li {
+      margin-bottom: 60px;
+}
+.footer__list li:last-child {
+    margin-bottom: 0;
+}
+.footer__list a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+  
 }
