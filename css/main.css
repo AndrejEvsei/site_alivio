@@ -15,3 +15,181 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+.header {
+    padding: 15px 0;
+}
+.header a {
+    text-decoration: none;
+}
+.header__flex {
+    display: flex;
+    align-items: center;    
+}
+.header__flex img {
+    margin-right: 130px;
+}
+.header__flex ul {
+    margin-right: 211px;
+}
+.header__flex > a {
+    color: black;
+    font-weight: 400;
+}
+.header__flex  a {
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 37px;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+}
+.header__list a {
+    font-weight: 500;
+    color: #292929;
+    margin-right: 72px;
+}
+.header__button {
+    padding: 13px 48px;
+    width: 183px;
+    height: 51px;
+}
+.button {
+    background-color: #01996D;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+}
+.first {
+    background-image: url(../img/BG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 895px;
+    padding-top: 177px;
+}
+.first h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+    margin-top: 0;
+    margin-bottom: 28px;
+    width: 440px;
+}
+.first p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #484848;
+    width: 420px;
+    margin-bottom: 55px;
+}
+.first__button {
+    padding: 20px 50px;
+}
+.second {
+    padding: 173px 0 51px;
+}
+.second h5 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #424242;
+    margin: 0 0 3px 0;
+}
+.second__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.second__flex h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996D;
+    width: 584px;
+    margin: 0;
+}
+.second__flex p {
+    width: 671px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    margin-top: 23px;
+    margin-bottom: 0;
+    padding-left: 21px;
+}
+
+.second__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 95px;
+    grid-template-rows: 1060px;
+}
+.second__card > div {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    color: #01996d33; 
+    position: relative;
+    margin-bottom: 38px;   
+}
+.second__card > div > h4 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    margin: 0;
+    position: absolute;
+    top: 108px;
+    left:88px;
+}
+.second__card p {
+    margin-top: 9px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+.second__card:first-child {
+    padding-top: 80px;
+}
+.second__card:nth-child(2){
+    padding-top: 366px;
+}
+.second__card:nth-child(2)  div  h4 {
+    left: 79px;
+}
+.second__card:last-child {
+    padding-top: 133px;
+}
+.second__card:last-child div {
+    padding-left: 6px;
+    margin-bottom: 29px;
+}
+.second__card:last-child div h4 {
+    left: 131px;
+}
+.second__card:last-child img {
+    padding-left: 6px;
+}
+
+.second__card:first-child p {
+    width: 382px;
+    margin-bottom: 60px;
+}
+.second__card:nth-child(2) p {
+    width: 392px;
+    margin-bottom: 37px;
+}
+.second__card:last-child p {
+    width: 441px;
+    margin-bottom: 47px;
+}
