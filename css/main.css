@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-size: 20px;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 .first {
     background-image: url(../img/BG.jpg);
@@ -81,14 +82,14 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: #01996D;
     margin-top: 0;
     margin-bottom: 28px;
-    width: 440px;
+    max-width: 440px;
 }
 .first p {
     font-weight: 400;
     font-size: 20px;
     line-height: 29px;
     color: #484848;
-    width: 420px;
+    max-width: 420px;
     margin-bottom: 55px;
 }
 .first__button {
@@ -114,11 +115,11 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-size: 50px;
     line-height: 157%;
     color: #01996D;
-    width: 584px;
+    max-width: 584px;
     margin: 0;
 }
 .second__flex p {
-    width: 671px;
+    max-width: 671px;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
@@ -210,9 +211,6 @@ h1, h2, h3, h4, h5, h6, p, a {
     display: flex;
     justify-content: space-between;
 }
-.video__content {
-
-}
 .video__content h2 {
     margin: 0 0 37px;
     padding-top: 81px;
@@ -221,14 +219,14 @@ h1, h2, h3, h4, h5, h6, p, a {
     font-size: 50px;
     line-height: 157%;
     color: #FFFFFF;
-    width: 580px;
+    max-width: 580px;
 }
 .video__content p {
     margin-bottom: 62px;
     font-weight: 600;
     font-size: 25px;
     color: #FFFFFF;
-    width: 550px;
+    max-width: 550px;
 }
 .video__button {
     padding: 20px 50px;
@@ -253,7 +251,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     bottom: 0;
 }
 .product__content {
-    width: 584px;
+    max-width: 584px;
 }
 .product__content h5 {
     font-weight: 600;
